@@ -52,12 +52,55 @@
         <br/>
         <br/>
         <p>genero
+            <br/>
         <input type="radio" name="Genero" value=""/> Feminino
+        <br/>
         <input type="radio" name="Genero" value=""/> masculo
+        <br/>
         <input type="radio" name="Genero" value=""/> outro
+        <br/>
 
         </p>
 
+        <!--estrutura de seleçao-->
+        <p> estado de nascimento
+            <select>
+                <option></option>
+                <option value="DF">DF</option>
+                <option value="BA">BA</option>
+                <option value="MG">MG</option>
+                <option value="GO">GO</option>
+                <option value="PB">PB</option>
+
+            </select>
+        </p>
+        <br>
+        <!--estrutura de checkbox-->
+        <p>
+            <input type="checkbox" name="termos"/>
+            Aceito todos os termos deste formulario!!!!
+            <br/>
+            <input type="checkbox" name="termos"/>
+            Aceito o contrato de LGPD
+        </p>
+        <br/>
+        <!--botao de resetar e enviar formulario-->
+        <input type="reset" name="reset"/>
+        <input type="submit" name="submit"/>
+
     </form>
+
+    <!--estrutura de fieldset-->
+    <br/>
+    <fieldset>
+        <legend>
+            formulario Central
+        </legend>
+        <label>Nome: <input type="text"></label>
+        <br/>
+        <br/>
+        <label>CPF: <input type="text"/></label>
+
+    </fieldset>
 </body>
 </html>
